@@ -1,0 +1,80 @@
+/* Regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-image:linear-gradient(#000000,#1e2b95,#67aad8);
+  height: 100vh;
+}
+
+.centre {
+  width: 60%;
+  margin:auto;
+  min-height: 500px;
+  text-align: center;
+}
+
+/* Website title  */
+
+h1 {
+  color:white;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* PW Display rules */
+
+.pw_display > h3 {
+  color:white;
+  font-family: 'Orbitron', sans-serif;
+  background-image:linear-gradient(#000000,#1e2b95,#67aad8);
+  border-radius: 20px;
+  padding:20px 20px;
+  height: 100%;
+}
+
+/* pw_generator */
+
+.pw_generator {
+
+  display: flex;
+  height: 100px;
+  width: 65%;
+  margin:40px auto;
+  background: #F0FFFF;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* pwgen css rules */
+
+#pwgen {
+  color:white;
+}
+
+/* icon */
+
+.pw_generator > div > a {
+  color:black;
+  margin:0 20px;
+  text-decoration: none;
+  animation: text_opacity 2s linear infinite;
+}
+
+/* Animation Settings */
+
+@keyframes text_opacity {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.pw_generator > div > a:hover {
+  animation:step-end;
+}

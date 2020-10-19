@@ -14,4 +14,4 @@
 
 // Risposta Output pwgen
 
-  document.getElementById('pwgen').innerHTML = "La tua password generata è: " + nome + cognome + colorePreferito + "19";
+  document.getElementById('pwgen').innerHTML = nome + cognome + colorePreferito + "19";
