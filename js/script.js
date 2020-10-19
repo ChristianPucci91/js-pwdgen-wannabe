@@ -7,9 +7,9 @@
 
 // testiamo il funzionamento sull'inspector con console.log
 
-  console.log(nome);
-  console.log(cognome);
-  console.log(colorePreferito);
+  console.log("Nome :" , nome);
+  console.log("Cognome: " , cognome);
+  console.log("Colore preferito: " , colorePreferito);
   console.log("La pw generata sarà", passwordGenerata );
 
 // Risposta Output pwgen
